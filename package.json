@@ -1,0 +1,31 @@
+{
+  "name": "swagger-jsdoc-support",
+  "displayName": "Swagger JSDoc Support",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "source.js",
+          "source.js.jsx",
+          "source.jsx",
+          "source.svelte",
+          "source.ts",
+          "source.tsx"
+        ],
+        "scopeName": "text.js.swagger-jsdocs-comment",
+        "path": "./syntaxes/grammar.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.yaml": "yaml"
+        }
+      }
+    ]
+  }
+}
