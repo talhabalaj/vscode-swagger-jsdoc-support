@@ -9,7 +9,9 @@
   ],
   "repository": {
     "embedded-yaml": {
-			"name": "meta.embedded.block.yaml"
+			"name": "meta.embedded.block.yaml",
+			"begin": "@openapi\\n(.)*",
+			"end": "*/"
     }
   }
 }
