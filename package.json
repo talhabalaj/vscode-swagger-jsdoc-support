@@ -20,7 +20,7 @@
           "source.ts",
           "source.tsx"
         ],
-        "scopeName": "text.js.swagger-jsdocs-comment",
+        "scopeName": "source.js.swagger-jsdocs-comment",
         "path": "./syntaxes/grammar.json",
         "embeddedLanguages": {
           "meta.embedded.block.yaml": "source.yaml"

@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "scopeName": "text.js.swagger-jsdocs-comment",
+  "scopeName": "source.js.swagger-jsdocs-comment",
   "injectionSelector": "L:comment.block",
   "patterns": [
     {
