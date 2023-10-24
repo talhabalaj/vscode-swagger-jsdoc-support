@@ -23,7 +23,7 @@
         "scopeName": "text.js.swagger-jsdocs-comment",
         "path": "./syntaxes/grammar.json",
         "embeddedLanguages": {
-          "meta.embedded.block.yaml": "yaml"
+          "meta.embedded.block.yaml": "source.yaml"
         }
       }
     ]

@@ -1,17 +1,24 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "scopeName": "text.js.swagger-jsdocs-comment",
-	"injectionSelector": "L:comment.block.documentation",
+  "injectionSelector": "L:comment.block",
   "patterns": [
-		{
-			"include": "#embedded-yaml"
-		}
-  ],
-  "repository": {
-    "embedded-yaml": {
-			"name": "meta.embedded.block.yaml",
-			"begin": "@openapi\\n(.)*",
-			"end": "*/"
+    {
+      "begin": "(@openapi)",
+      "beginCaptures": {
+        "1": {
+          "name": "storage.type.class.jsdoc"
+        }
+      },
+			"name":"meta.embedded.block.yaml",
+      "patterns": [
+        {
+          "include": "source.yaml"
+        }
+      ],
+      "end": "(@.*)",
+      "endCaptures": { "0": { "patterns": [{ "include": "source.ts#docblock" }] } }
     }
-  }
+  ],
+  "repository": {}
 }
