@@ -26,6 +26,12 @@
           "meta.embedded.block.yaml": "source.yaml"
         }
       }
+    ],
+    "typescriptServerPlugins": [
+      {
+        "enableForWorkspaceTypeScriptVersions": true,
+        "name": "typescript-swagger-jsdocs-plugin"
+      }
     ]
   }
 }
