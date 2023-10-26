@@ -1,6 +1,9 @@
 {
   "name": "swagger-jsdoc-support",
   "displayName": "Swagger JSDoc Support",
+  "repository": {
+    "url": "https://github.com/talhabalaj/vscode-swagger-jsdoc-support"
+  },
   "description": "Syntax Highlighting for Swagger in JSDoc comments",
   "version": "0.0.1",
   "engines": {
