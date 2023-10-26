@@ -1,0 +1,8 @@
+{
+  "typescriptServerPlugins": [
+    {
+      "enableForWorkspaceTypeScriptVersions": true,
+      "name": "typescript-swagger-jsdocs-plugin"
+    }
+  ]
+}
