@@ -1,6 +1,7 @@
 {
   "name": "swagger-jsdoc-support",
   "displayName": "Swagger JSDoc Support",
+  "publisher": "TalhaBalaj",
   "repository": {
     "url": "https://github.com/talhabalaj/vscode-swagger-jsdoc-support"
   },
